@@ -1,0 +1,163 @@
+body {
+  background-color: #101010;
+}
+
+/*
+*NavBar
+*/
+
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #000;
+}
+
+.navbar {
+  background-color:  #99D3B4;
+  color: #101010;
+}
+
+.btn-sign:hover {
+  background-color: #101010;
+  color: #99D3B4;
+}
+
+.navbar-brand { 
+  position: relative; 
+  z-index: 2;
+  color: #333;
+}
+
+.tips {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.navbar-nav.navbar-right .btn { 
+  position: relative; 
+  z-index: 2; 
+  padding: 4px 20px; 
+  margin: 10px auto; 
+  transition: transform 0.3s; }
+
+.navbar .navbar-collapse { 
+  position: relative; 
+  overflow: hidden !important; 
+}
+.navbar .navbar-collapse .navbar-right > li:last-child { 
+  padding-left: 22px; 
+}
+
+.navbar .nav-collapse { 
+  position: absolute; 
+  z-index: 1; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: 0; 
+  padding-right: 120px; 
+  padding-left: 80px; 
+  width: 100%; 
+}
+
+.navbar.navbar-default .nav-collapse { 
+  background-color: #99D3B4; 
+}
+
+.navbar.navbar-inverse .nav-collapse { 
+  background-color: #101010; 
+}
+
+.navbar .nav-collapse .navbar-form { 
+  border-width: 0; 
+  box-shadow: none; 
+}
+
+.nav-collapse>li { 
+  float: right; 
+}
+
+.btn.btn-circle { 
+  border-radius: 50px;
+  border: 2px solid gray;
+}
+
+.btn.btn-outline { 
+  background-color: transparent; 
+}
+
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: #101010;
+    border-color: #101010;
+    color:  #99D3B4;
+}
+
+.navbar.navbar-default .nav-collapse,
+.navbar.navbar-inverse .nav-collapse {
+    height: auto !important;
+    transition: transform 0.3s;
+    transform: translate(0px,-50px);
+}
+
+.navbar.navbar-default .nav-collapse.in,
+.navbar.navbar-inverse .nav-collapse.in {
+    transform: translate(0px,0px);
+}
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { 
+      padding-left: 15px; 
+      padding-right: 15px; 
+    } 
+    
+    .navbar .nav-collapse { 
+      margin: 7.5px auto; 
+      padding: 0; 
+    }
+
+    .navbar .nav-collapse .navbar-form { 
+      margin: 0; 
+    }
+
+    .nav-collapse>li { 
+      float: none; 
+    }
+    
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+}
+/*
+* Fin NavBar
+*/
+
+/*
+* Sección Reto
+*/
+
+.reto {
+  width: 100vh;
+  height: auto;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: 100%;
+}
