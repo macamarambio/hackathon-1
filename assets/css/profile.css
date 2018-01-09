@@ -1,5 +1,6 @@
 body{
   background-color: #101010;
+  color: #FFF;
 }
 
 .col-md-3{
@@ -10,6 +11,7 @@ body{
   border: 1px solid red;
 }
 
+/*Sección Perfil */
 .progress{
   width: 150px;
   height: 150px;
@@ -160,6 +162,9 @@ body{
   .progress{ margin-bottom: 20px; }
 }
 
+.section-profile{
+  color: #fff;
+}
 
 .profile-img{
   width: 80%;
@@ -168,3 +173,20 @@ body{
 .profile-menu{
   width: 2.5em;
 }
+
+.description{
+  margin-top: 3%;
+}
+/* Fin Perfil */
+
+/*Sección Logros*/
+.section-achievements img{
+  border: 1px solid #101010;
+  margin-top: 5%;
+  width: 85%;
+}
+
+/*Fin Logros*/
+
+
+
