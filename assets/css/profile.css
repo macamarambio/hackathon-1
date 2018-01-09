@@ -12,6 +12,22 @@ body{
 }
 
 /*Sección Perfil */
+
+.section-profile{
+  color: #fff;
+}
+
+.profile-img{
+  width: 80%;
+}
+
+.profile-menu{
+  width: 2.5em;
+}
+
+.description{
+  margin-top: 3%;
+}
 .progress{
   width: 150px;
   height: 150px;
@@ -161,29 +177,117 @@ body{
 @media only screen and (max-width: 990px){
   .progress{ margin-bottom: 20px; }
 }
-
-.section-profile{
-  color: #fff;
-}
-
-.profile-img{
-  width: 80%;
-}
-
-.profile-menu{
-  width: 2.5em;
-}
-
-.description{
-  margin-top: 3%;
-}
 /* Fin Perfil */
 
 /*Sección Logros*/
-.section-achievements img{
-  border: 1px solid #101010;
-  margin-top: 5%;
-  width: 85%;
+
+.ch-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  cursor: default;
+}
+
+.ch-info-wrap{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  perspective: 800px;
+  transition: all 0.4s ease-in-out;
+  top: 20px;
+  left: 20px;
+
+
+
+}
+
+.ch-info{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+  transform: rotate3d(0,1,0,180deg);
+  background: #000;
+}
+
+.ch-img-1 {
+  background-image: url(../img/Profile/popcorn.png);
+  background-size: cover;
+}
+
+.ch-img-2 {
+  background-image: url(../img/Profile/goldenticket.png);
+  background-size: cover;
+}
+
+.ch-img-3 {
+  background-image: url(../img/Profile/pizza.png);
+  background-size: cover;
+}
+
+.ch-img-4 {
+  background-image: url(../img/Profile/coffe.png);
+  background-size: cover;
+}
+
+.ch-img-5 {
+  background-image: url(../img/Profile/great.png);
+  background-size: cover;
+}
+
+.ch-img-6 {
+  background-image: url(../img/Profile/control.png);
+  background-size: cover;
+}
+
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin: 0 15px;
+  padding: 40px 0 0 0;
+  height: 90px;
+}
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+}
+
+.ch-info p a {
+  display: block;
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+.ch-item:hover .ch-info {
+  transform: rotate3d(0,1,0,-180deg);
 }
 
 /*Fin Logros*/
