@@ -2,6 +2,14 @@ body{
   background-color: #101010;
 }
 
+.col-md-3{
+  border: 1px solid red;
+}
+
+.col-md-6{
+  border: 1px solid red;
+}
+
 .progress{
   width: 150px;
   height: 150px;
@@ -80,10 +88,10 @@ body{
 .progress.blue .progress-left .progress-bar{
   animation: loading-2 1.5s linear forwards 1.8s;
 }
-.progress.yellow .progress-bar{
-  border-color: #fdba04;
+.progress.teal .progress-bar{
+  border-color: #77C0C1;
 }
-.progress.yellow .progress-left .progress-bar{
+.progress.teal .progress-left .progress-bar{
   animation: loading-3 1s linear forwards 1.8s;
 }
 .progress.pink .progress-bar{
@@ -155,4 +163,8 @@ body{
 
 .profile-img{
   width: 80%;
+}
+
+.profile-menu{
+  width: 2.5em;
 }
