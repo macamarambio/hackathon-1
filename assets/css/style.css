@@ -1,5 +1,7 @@
 body {
   background-color: #101010;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
 }
 
 /*
@@ -167,11 +169,16 @@ body {
 
 .texto {
   margin: 50px 0;
+  padding: 10px;
+  background-color: #101010;
+  border-radius: 50px;
+
 }
 
 .comienza {
   margin: 20px;
   background-color: #101010;
+  border-radius: 50px;
   color: #99D3B4;
 }
 /*
