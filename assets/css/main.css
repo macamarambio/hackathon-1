@@ -7,8 +7,8 @@ body {
 }
 
 .profile-menu {
-    width: 2.5em;
-}
+  width: 2.5em;
+ }
 /* carrusel 1 */
 
 .carousel-inner.onebyone-carosel {
@@ -32,6 +32,6 @@ body {
   left: -25.00%;
 }
 /* sección de series mas maratoneadas */
-.series {
+.container {
   color: #99D3B4;
 }
