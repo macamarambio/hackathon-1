@@ -9,16 +9,16 @@ body {
 */
 
 .navbar-default .navbar-nav > li > a {
-  color: #101010;
+  color: #99D3B4;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #101010;
+  color: #99D3B4;
 }
 
 .navbar {
-  background-color:  #99D3B4;
-  color: #101010;
+  background-color:  #222222;
+  color: #99D3B4;
 }
 
 .btn-sign:hover {
@@ -30,6 +30,7 @@ body {
   position: relative; 
   z-index: 2;
   color: #101010;
+  padding: 0;
 }
 
 .tips {
