@@ -19,6 +19,7 @@ body {
 .navbar {
   background-color:  #222222;
   color: #99D3B4;
+  border: none;
 }
 
 .btn-sign:hover {
