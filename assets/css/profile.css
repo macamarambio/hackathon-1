@@ -4,11 +4,14 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.col-md-1{
-  border: 1px solid red;
-}
 /*Sección Perfil */
+.navbar-inverse .navbar-nav > li > a {
+  color: #99D3B4;
+}
 
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #99D3B4;
+}
 .section-profile{
   color: #fff;
 }
@@ -19,6 +22,10 @@ body{
 
 .profile-menu{
   width: 2.5em;
+}
+
+.profile-menu:hover{
+  border: 2px solid #99D3B4;
 }
 
 .description{
@@ -375,11 +382,14 @@ body{
 .amigos img{
   width: 90%;
   height: 4.5em;
-  opacity: 0.3;
 }
 
 .amigos img:hover{
   opacity: 0.8;
+}
+
+.inv-friend img{
+  opacity: 0.3;
 }
 
 .inv-friend a .fa-plus-circle{
