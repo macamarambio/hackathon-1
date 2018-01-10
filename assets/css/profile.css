@@ -319,11 +319,9 @@ body{
   transform: rotate3d(0,1,0,-180deg);
 }
 
-@media screen and (max-width: 767px) {
-  .ch-item, .ch-info, .ch-info > div{
-    width: 40%;
-    height: 40%;
-  }
+.mobile-atch img{
+  width: 90%;
+  margin-bottom: 20%;
 }
 
 /*Fin Logros*/
@@ -335,7 +333,8 @@ body{
 
 .top-series img{
   width: 100%;
-  height: 20em;
+  min-width: 4em;
+  height: 22em;
 }
 
 .carousel {
@@ -346,12 +345,12 @@ body{
 /* The controlsy */
 .carousel-control {
   left: -12px;
-  height: 40px;
-  width: 40px;
+  height: 2em;
+  width: 2em;
   background: none repeat scroll 0 0 #222222;
   border: 4px solid #FFFFFF;
   border-radius: 23px 23px 23px 23px;
-  margin-top: 90px;
+  margin-top: 7em;
 }
 .carousel-control.right {
   right: -12px;
@@ -370,13 +369,22 @@ body{
 .carousel-indicators .active {
   background: #428bca;
 }
+
+@media screen and (max-width: 767px){
+  .top-series img{
+  height: 7em;
+  }
+
+  .top-series {
+    margin-top: 5%;
+  }
+
+  
+
+}
 /*Fin Top Series*/
 
 /*Actividad Reciente*/
-.act-reciente a {
-  
-}
-
 .p-reto{
   width: 65%;
   margin-top: 20%;
@@ -392,13 +400,21 @@ body{
   margin-bottom: 1em;
 }
 
-.amigos img {
+.amigos .img-profile {
   margin-bottom: 1em;
   width: 80%;
+  height: auto;
+
 }
 
 .amigos a{
   color: #FFF;
+}
+
+@media screen and (max-width: 767px){
+  .amigos .img-profile{
+    width: 100%;
+  }
 }
 /* .Sección Amigos*/
 
@@ -420,7 +436,7 @@ body{
 
 .amigos img{
   width: 90%;
-  height: 4.5em;
+  height: auto;
 }
 
 .amigos img:hover{
@@ -435,7 +451,7 @@ body{
   font-size: 1.2em;
   margin-left: 2.7em;
   position: relative;
-  top: -2em;
+  top: -1em;
   color: #77C0C1;
 }
 /* .invitar amigos*/
@@ -536,6 +552,10 @@ body{
   margin: 0 auto;
   margin-top: 10px;
   line-height: 25px;
+}
+
+#myFooter .btn:hover{
+  color: #FFF;
 }
 
 @media screen and (max-width: 767px) {
