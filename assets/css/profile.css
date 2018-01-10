@@ -4,10 +4,6 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.col-xs-12{
-  border:1px solid red;
-}
-
 /*Sección Perfil */
 .navbar-brand{
   margin-top: -0.7em;
