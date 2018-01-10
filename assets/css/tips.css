@@ -1,0 +1,63 @@
+.profile-img{
+  width: 80%;
+}
+
+.profile-menu{
+  width: 2.5em;
+}
+
+.navbar-inverse {
+	background-color: #000;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.abajo {
+	background: #101010;
+	height: 55em;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+.anuncio {
+	text-align: center;
+	background: #fff;
+	margin: 2em 5em 0 5em;
+	height: 13em;
+	width: 1258px;
+}
+
+.imagen {
+	margin: 1em;
+	height: 11em;
+	width: auto;
+}
+
+.uno {
+	background-color: #99D3B4;
+	text-align: center;
+	margin: 0 2em 3em 6em;
+	height: 37em;
+	width: 27em;
+}
+
+.dos {
+	background-color: #99D3B4;
+	text-align: center;
+	margin: 0 2em 3em 2em;
+	height: 37em;
+	width: 27em;
+}
+
+
+.tres {
+	background-color: #99D3B4;
+	text-align: center;
+	margin: 0 3em 3em 3em;
+	height: 37em;
+	width: 27em;
+}
