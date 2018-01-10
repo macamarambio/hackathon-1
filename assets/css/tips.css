@@ -67,11 +67,19 @@ body{
 .tres {
   background-color: #99D3B4;
   text-align: center;
-  margin: 0 3em 3em 3em;
+  margin: 0 3em 3em 2em;
   height: 37em;
-  width: 27em;
+  width: 373px;
 }
 
+.gift {
+  height: 15em;
+  width: 10em;
+}
+
+.fondo {
+  background-color: #fff;
+}
 
 #myFooter {
   margin-top: 10%;
@@ -170,13 +178,6 @@ body{
   line-height: 25px;
 }
 
-@media screen and (max-width: 767px) {
-  #myFooter {
-    text-align: center;
-  }
-}
-
-
 .content{
  flex: 1 0 auto;
  -webkit-flex: 1 0 auto;
@@ -187,5 +188,54 @@ body{
  flex: 0 0 auto;
  -webkit-flex: 0 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center;
+  }
+
+  .anuncio {
+    text-align: center;
+   }
+
+   .abajo{
+    text-align: center;
+    margin-right: 1em;
+   }
+
+   .imagen {
+    margin: 0 3em 0;
+    width: 24em;
+    text-align: center;
+   }
+
+   .navbar {
+    width: 34em;
+   }
+
+   .navbar-header {
+    height: 5em;
+   }
+
+   .navbar-brand {
+   margin: -5px;
+   }
+
+   .navbar-inverse .navbar-toggle {
+    margin: 1em;
+   }
+
+   .dos {
+    margin: 0 2em 3em 6em;
+   }
+
+   .tres {
+    margin: 0 2em 6em 6em;
+   }
+
+}
+
+
+
 
 
