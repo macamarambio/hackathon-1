@@ -78,7 +78,6 @@ body {
 /*Fin Ranking*/
 
 /*Footer*/
-
 #myFooter {
   margin-top: 10%;
   background-color: #222222;
@@ -193,3 +192,5 @@ body {
  flex: 0 0 auto;
  -webkit-flex: 0 0 auto;
 }
+
+/*Fin Footer*/
