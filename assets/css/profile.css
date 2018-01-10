@@ -1,10 +1,12 @@
 body{
   background-color: #101010;
   color: #FFF;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-
-
+.col-md-1{
+  border: 1px solid red;
+}
 /*Sección Perfil */
 
 .section-profile{
@@ -297,18 +299,18 @@ body{
 
 .carousel {
   margin-top: 2em;
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
 }
 /* The controlsy */
 .carousel-control {
   left: -12px;
-    height: 40px;
+  height: 40px;
   width: 40px;
-    background: none repeat scroll 0 0 #222222;
-    border: 4px solid #FFFFFF;
-    border-radius: 23px 23px 23px 23px;
-    margin-top: 90px;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 90px;
 }
 .carousel-control.right {
   right: -12px;
@@ -325,9 +327,67 @@ body{
   background: #cecece;
 }
 .carousel-indicators .active {
-background: #428bca;
+  background: #428bca;
 }
 /*Fin Top Series*/
 
+/*Actividad Reciente*/
+.act-reciente a {
+  
+}
+/*Fin Actividad Reciente*/
 
+/*Sección Amigos*/
+.amigos {
+  margin-top: 2%;
+}
 
+.amigos h3{
+  margin-bottom: 1em;
+}
+
+.amigos img {
+  margin-bottom: 1em;
+  width: 80%;
+}
+
+.amigos a{
+  color: #FFF;
+}
+/* .Sección Amigos*/
+
+/*invitar Amigos*/
+.inv-friend a .fa {
+  font-size: 2.5em;
+}
+
+.fa-facebook-square:hover{
+  color: #3b5998;
+}
+
+.fa-twitter-square:hover{
+  color: #00aced;
+}
+.fa-google-plus-square:hover{
+  color:#db4a39;
+}
+
+.amigos img{
+  width: 90%;
+  height: 4.5em;
+  opacity: 0.3;
+}
+
+.amigos img:hover{
+  opacity: 0.8;
+}
+
+.inv-friend a .fa-plus-circle{
+  font-size: 1.2em;
+  margin-left: 2.7em;
+  position: relative;
+  top: -2em;
+  color: #77C0C1;
+}
+
+/* .invitar amigos*/
