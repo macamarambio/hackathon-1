@@ -5,6 +5,10 @@
 body {
   background: #101010;
 }
+
+.profile-menu {
+    width: 2.5em;
+}
 /* carrusel 1 */
 
 .carousel-inner.onebyone-carosel {
@@ -29,5 +33,5 @@ body {
 }
 /* sección de series mas maratoneadas */
 .series {
-  color: #99D3B4; 
+  color: #99D3B4;
 }
