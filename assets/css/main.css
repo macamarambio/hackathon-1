@@ -35,3 +35,15 @@ body {
 .container {
   color: #99D3B4;
 }
+/* ranking mejores maratoneros */
+.profile-header-img > img.img-circle {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #51D2B7;
+}
+
+.label.label-default.rank-label {
+  background-color: rgb(81, 210, 183);
+  padding: 5px 10px 5px 10px;
+  border-radius: 27px;
+}
