@@ -67,10 +67,12 @@ body {
 }
 
 .navbar.navbar-default .nav-collapse { 
-  background-color: #222222;
+  background-color: #99D3B4; 
+}
 
 .navbar.navbar-inverse .nav-collapse { 
-  background-color: #222222;
+  background-color: #101010; 
+}
 
 .navbar .nav-collapse .navbar-form { 
   border-width: 0; 
