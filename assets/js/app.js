@@ -2,9 +2,7 @@ $(document).ready(function () {
     $('#myCarousel').carousel({
         interval: 2000
     });
-});
-
-$('.btn-sign').click(function(){
+    $('.btn-sign').click(function(){
     	/*if($('#Email').val() === ""){
     		alert("Ingesa tu Email");
     	}if($('#Password').val() === ""){
@@ -14,3 +12,14 @@ $('.btn-sign').click(function(){
     	}*/
     		window.location.href="UserLoggedIn.html";
     });
+    $('.tips').click(function(){
+    	/*if($('#Email').val() === ""){
+    		alert("Ingesa tu Email");
+    	}if($('#Password').val() === ""){
+    		alert("Ingresa tu contraseña");
+    	}else{
+    		console.log("hola");
+    	}*/
+    		window.location.href="tips.html";
+    });
+});
