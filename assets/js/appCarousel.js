@@ -3,6 +3,6 @@ $(document).ready(function () {
         interval: 2000
     });
     $('#myCarousel2').carousel({
-        interval: 1000
+        interval: 2500
     });
 });
