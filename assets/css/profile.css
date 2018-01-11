@@ -205,6 +205,10 @@ body{
   margin-top: 2%;
 }
 
+.section-achievements h3{
+  margin-bottom: 5%;
+}
+
 .ch-item {
   width: 100%;
   height: 100%;
@@ -320,11 +324,21 @@ body{
   margin-bottom: 20%;
 }
 
+@media screen and (max-width: 767px){
+  .section-achievements h3{
+    margin-bottom: 5%;
+  }
+}
+
 /*Fin Logros*/
 
 /*Top Series*/
 .top-series {
-  margin-top: 18%;
+  margin-top: 17%;
+}
+
+.top-series h3{
+  margin-bottom: 4%;
 }
 
 .top-series img{
@@ -333,59 +347,98 @@ body{
   height: 22em;
 }
 
-.carousel {
-  margin-top: 2em;
-  margin-bottom: 0;
-  padding: 0 40px 30px 40px;
-}
-/* The controlsy */
-.carousel-control {
-  left: -12px;
-  height: 2em;
-  width: 2em;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
-  border-radius: 23px 23px 23px 23px;
-  margin-top: 7em;
-}
-.carousel-control.right {
-  right: -12px;
-}
-/* The indicators */
-.carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: -10px;
-  margin-right: -19px;
-}
-/* The colour of the indicators */
-.carousel-indicators li {
-  background: #cecece;
-}
-.carousel-indicators .active {
-  background: #428bca;
-}
-
 @media screen and (max-width: 767px){
   .top-series img{
-  height: 7em;
+    height: 7em;
+  }
+
+  .top-series h3{
+    margin-bottom: 8%;
   }
 
   .top-series {
     margin-top: 5%;
   }
-
-  
-
 }
 /*Fin Top Series*/
 
 /*Actividad Reciente*/
+.act-reciente{
+  margin: 3% auto;
+}
 .p-reto{
   width: 65%;
   margin-top: 20%;
 }
-/*Fin Actividad Reciente*/
+
+/*Progress bar*/
+
+.progr{
+  margin-top: 6%;
+  height: 10px;
+  background: #cbcbcb;
+  border-radius: 2em;
+  box-shadow: none;
+  margin-bottom: 4em;
+  overflow: visible;
+}
+
+.progr .progress-bar{
+  box-shadow: none;
+  position: relative;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s;
+  border-radius: 2em;
+}
+.progr .progr-bar:after{
+  content: "";
+  display: block;
+  border: 15px solid transparent;
+  border-bottom: 21px solid transparent;
+  position: absolute;
+  top: -26px;
+  right: -12px;
+}
+.progr .progress-value{
+  font-size: 15px;
+  color: #FFF;
+  position: absolute;
+  top: -40px;
+  right: 0;
+}
+.progress.pink .progress-bar:after{
+  border-bottom-color: #ff4b7d;
+}
+.progress.green .progress-bar:after{
+  border-bottom-color: #5fad56;
+}
+.progress.yellow .progress-bar:after{
+  border-bottom-color: #e8d324;
+}
+.progress.blue .progress-bar:after{
+  border-bottom-color: #3485ef;
+}
+@-webkit-keyframes animate-positive{
+  0% { width: 0; }
+}
+@keyframes animate-positive{
+  0% { width: 0; }
+}
+
+@media screen and (max-width: 767px){
+  .p-reto{
+    width: 65%;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  .progr{
+    margin-top: 10%;
+    margin-right: 5%;
+  }
+}
+
+/*.Progress bar*/
+/*.Actividad Reciente*/
 
 /*Sección Amigos*/
 .amigos {
@@ -449,6 +502,19 @@ body{
   position: relative;
   top: -1em;
   color: #77C0C1;
+}
+
+@media screen and (max-width: 767px) {
+  .amigos h3{
+    margin-top: -1%;
+  }
+
+  .inv-friend{
+    margin-top: 7%;
+  }
+  .social-m{
+    text-align: center;
+  }
 }
 /* .invitar amigos*/
 

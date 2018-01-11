@@ -3,31 +3,14 @@ $(document).ready(function() {
     interval: 2000
   });
   $('#myCarousel2').carousel({
-    interval: 1000
+    interval: 2000
   });
 });
 
+/*
+ *función que agrega las imagenes de las series a los carruseles
+ */
 var randomMovieArray = ['Stranger Things', 'Game of Thrones', 'Narcos', 'Black mirror', 'sense8', 'Breaking Bad', 'Walking Dead', 'Silicon Valley', 'Mindhunter', 'Designated Survivor', 'Scream Queens', 'Dexter', 'Glee', 'Big Bang Theory', 'Modern Family', 'True Blood'];
-// var randomNumber = Math.floor((Math.random() * randomMovieArray.length - 1) + 1);
-// var randomMovie = randomMovieArray[randomNumber];
-//
-// function apiCall() {
-//   console.log(randomMovie);
-//   $.getJSON('https://www.omdbapi.com/?apikey=3a181f1c&s=' + encodeURI(randomMovie)).then(function(response) {
-//     // console.log(response.Search[0].Poster);
-//     var image = response.Search[0].Poster;
-//     console.log(image);
-//     if (image !== "N/A") {
-//       $('.imgUno').attr('src', image);
-//       $('.imgDos').attr('src', image);
-//       $('.imgTres').attr('src', image);
-//       $('.imgCuatro').attr('src', image);
-//     }
-//   });
-// }
-// apiCall();
-
-//var series = ['Stranger Things'];
 
 function apiCall() {
   $.getJSON('https://www.omdbapi.com/?apikey=3a181f1c&s=' + encodeURI(randomMovieArray[2])).then(function(response) {
