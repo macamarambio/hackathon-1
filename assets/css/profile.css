@@ -637,5 +637,45 @@ body{
  flex: 0 0 auto;
  -webkit-flex: 0 0 auto;
 }
-
 /*Fin Footer*/
+
+/*Modal popcorn*/
+.modal-content{
+  background-color: #000;
+  border: 1px solid #FFF;
+}
+
+.modal-content h3{
+    margin-top: 0;
+}
+
+.modal-content p{
+  margin-top: 10%;
+  text-align: justify;
+}
+
+.modal-content img{
+  margin-top: 10%;
+  width: 100%;
+}
+
+.modal-content .close{
+  margin:3% 2%;
+  color: #FFF;
+  opacity: 1;
+}
+
+.modal-content .close:hover{
+  opacity: 1
+  color: white;
+}
+
+@media only screen and (min-width : 768px) {
+  .modal-content{
+    margin-top: 100%;
+  }
+}
+
+
+
+/*.Modal popcorn*/
