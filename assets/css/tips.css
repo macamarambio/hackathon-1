@@ -25,14 +25,20 @@ body{
 
 .navbar {
   margin-bottom: 0;
+  width: auto;
 }
 
-.abajo {
-  height: 55em;
-  width: auto;
-  margin: 0;
+.navbar-brand {
+  margin: 1px 0 0 4px;
   padding: 0;
-  border:0;
+}
+
+.caja {
+  width: 100%;
+}
+
+.caja2 {
+  width: 100%;
 }
 
 .anuncio {
@@ -50,15 +56,15 @@ body{
 .uno {
   background-color: #99D3B4;
   text-align: center;
-  margin: 0 2em 3em 6em;
+  margin: 0 2em 1em 6em;
   height: 37em;
-  width: 27em;
+  width: 25em;
 }
 
 .dos {
   background-color: #99D3B4;
   text-align: center;
-  margin: 0 2em 3em 2em;
+  margin: 0 2em 1em 2em;
   height: 37em;
   width: 27em;
 }
@@ -67,9 +73,9 @@ body{
 .tres {
   background-color: #99D3B4;
   text-align: center;
-  margin: 0 3em 3em 2em;
+  margin: 0 2em 1em 2em;
   height: 37em;
-  width: 373px;
+  width: 370px;
 }
 
 .gift {
@@ -79,10 +85,11 @@ body{
 
 .fondo {
   background-color: #fff;
+  width: auto;
 }
 
 #myFooter {
-  margin-top: 10%;
+  margin-top: 2%;
   background-color: #222222;
   color: white;
   padding-top: 30px;
@@ -192,6 +199,7 @@ body{
 @media screen and (max-width: 767px) {
   #myFooter {
     text-align: center;
+    width: 34em;
   }
 
   .anuncio {
@@ -218,21 +226,65 @@ body{
    }
 
    .navbar-brand {
-   margin: -5px;
+   margin: 1em 0 1em 0;
+   padding: 0;
    }
 
    .navbar-inverse .navbar-toggle {
     margin: 1em;
    }
 
+   .uno {
+    margin: 0 2em 3em 6em;
+    width: 27em;
+   }
+
    .dos {
     margin: 0 2em 3em 6em;
+    width: 27em;
+
    }
 
    .tres {
     margin: 0 2em 6em 6em;
+    width: 380px;
    }
 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+     .uno {
+    text-align: center;
+   }
+
+   .dos {
+    text-align: center;
+   }
+
+   .tres {
+    text-align: center;
+   }
+}
+/*
+@media (min-width: 1200px) {
+     .uno {
+    text-align: center;
+    margin: 0 3em 1em 6em;
+
+   }
+
+   .dos {
+    text-align: center;
+    margin: 0 3em 1em 4em;
+
+   }
+
+   .tres {
+    text-align: center;
+    margin: 0 0 1em 4em;
+    width: 377px;
+
+   }*/
 }
 
 
