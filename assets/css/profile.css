@@ -267,7 +267,7 @@ body{
 }
 
 .ch-img-3 {
-  background-image: url(../img/Profile/pizza.png);
+  background-image: url(../img/Profile/pollos.png);
   background-size: cover;
 }
 
@@ -366,8 +366,9 @@ body{
 .act-reciente{
   margin: 3% auto;
 }
-.p-reto{
-  width: 65%;
+.act-reciente img{
+  height: 4em;
+  width: 4em
   margin-top: 20%;
 }
 
@@ -424,7 +425,7 @@ body{
 @keyframes animate-positive{
   0% { width: 0; }
 }
-
+/*
 @media screen and (max-width: 767px){
   .p-reto{
     width: 65%;
@@ -435,7 +436,7 @@ body{
     margin-top: 10%;
     margin-right: 5%;
   }
-}
+}*/
 
 /*.Progress bar*/
 /*.Actividad Reciente*/
