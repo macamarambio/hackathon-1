@@ -178,7 +178,16 @@ body {
 }
 
 .comienza {
-  margin: 20px;
+  width: 90%;
+  margin: 20px 0;
+  background-color: #101010;
+  border-radius: 50px;
+  color: #99D3B4;
+}
+
+.registrate {
+  width: 90%;
+  margin: 20px 0;
   background-color: #101010;
   border-radius: 50px;
   color: #99D3B4;
