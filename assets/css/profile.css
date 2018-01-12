@@ -10,6 +10,10 @@ body{
   color: #99D3B4;
 }
 
+.navbar-brand{
+  margin-top: 1%;
+}
+
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #99D3B4;
 }
