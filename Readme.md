@@ -16,7 +16,7 @@ ideas (redactar)
 
 #### Más sobre nosotros
 
-Esta plataforma te permite crear tu propio perfil, en donde podrás registrar las series vistas, cuanto tiempo demoraste en verlas, desbloquear nuevos capitulos y ganar premios.
+Ésta plataforma te permite crear tu propio perfil, en donde podrás registrar las series vistas, cuanto tiempo demoraste en verlas, desbloquear nuevos capitulos y ganar premios.
 Reta a tus amigos y alcanza el primer lugar del ranking. Presume tus logros en redes sociales y demuestra que eres el **¡#SuperMaratonero número #1!**
 Desbloquea nuevos capitulos, acumula puntos y gana premios, reta a tus amigos y alcanza el primer lugar del ranking
 
@@ -24,7 +24,7 @@ Desbloquea nuevos capitulos, acumula puntos y gana premios, reta a tus amigos y 
 
 ## Proceso
 
-
+![img](https://ibb.co/jV0Vgm)
 
 ### Notas Tecnicas Generales:
 
