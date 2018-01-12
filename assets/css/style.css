@@ -134,6 +134,11 @@ body {
   border-radius: 20px;
 }
 
+#remove {
+  margin-left: 11em;
+  margin-top: -1em;
+}
+
 
 #custom-search-form {
   margin: 0;

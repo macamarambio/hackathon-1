@@ -145,7 +145,8 @@ function search(searchText) {
     var title = response.Search[0].Title;
     var year = response.Search[0].Year;
     if (poster !== "N/A") {
-      $('.busqueda').append('<img class="imgSeries" src="' + poster + '" alt="series">' + '<h4>' + title + '</h4>' + '<h5>' + year + '</h5>' + '<p>' + 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '</p>');
-    }
+      $('.buscador').append('<img class="imgSeries delete" src="' + poster + '" alt="series">' + '<h4 class="delete">' + title + '</h4>' + '<h5 class="delete">' + year + '</h5>' + '<p class="delete">' + 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' + '</p>');
+      $('#remove').append('<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>');
+    };
   });
 };
