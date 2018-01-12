@@ -5,11 +5,23 @@ body{
 }
 
 /*Sección Perfil */
+
+/*
 .navbar-brand{
   margin-top: -0.7em;
+}*/
+
+.navbar-brand { 
+  position: relative; 
+  z-index: 2;
+  color: #101010;
+  padding: 0;
+  margin: 4px;
 }
+
 .navbar-inverse .navbar-nav > li > a {
   color: #99D3B4;
+  padding-bottom: 0;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -26,6 +38,7 @@ body{
 
 .profile-menu{
   width: 2.5em;
+  padding-bottom: 0;
 }
 
 .profile-menu:hover{
@@ -39,7 +52,10 @@ body{
 /* Carousel */
 .carousel {
   margin-bottom: 1em;
-  text-align: center;
+}
+
+.siete{
+  width: 100%;
 }
 
 
