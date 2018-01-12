@@ -81,7 +81,6 @@ body {
 }
 
 .navbar-form {
-  z-index: 1;
   padding-right: 50px;
 }
 
@@ -93,16 +92,18 @@ body {
   border-radius: 50px;
   border: 2px solid gray;
 }
+.btn-ingresa {
+  z-index: 1;
+}
 
-.btn-ingresa:hover { 
-  border: none;
+.btn-ingresa:hover {
   background-color: #99D3B4;
   color: #101010;
   border: 2px solid #99D3B4;
 }
 
-.btn.btn-outline { 
-  background-color: #101010; 
+.btn.btn-outline {
+  background-color: transparent; 
 }
 
 .navbar-nav.navbar-right .btn:not(.collapsed) {
@@ -190,7 +191,7 @@ body {
 .reto {
   width: 100%;
   height: auto;
-  margin-top: -50px;
+  margin-top: 50px;
   background-image: url(../img/fondolentes.jpg);
   background-position: center;
   background-size: 100%;
@@ -204,6 +205,7 @@ body {
   padding: 20px 10px;
   background-color: #101010;
   border-radius: 30px;
+  z-index: 2;
 }
 
 .hacheuno, .hachetres {
@@ -257,7 +259,27 @@ body {
 /*
 * Fin Sección Series
 */
-
+/* Sección foto */
+.foto{
+  background-image: url(../img/maraton4-2.png);
+  width: 100%;
+  height: 100vh;
+ background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  padding: 0;
+}
+/* Fin Sección foto */
+/* Sección explicación */
+.explicacion{
+  margin-bottom: 0px;
+  padding: 80px;
+  background: linear-gradient(#FFFFFF,#222222, #101010);
+  color: #99D3B4;
+}
+/* Fin Sección explicación */
 /*
  * Seción ranking
  */
@@ -273,9 +295,11 @@ body {
 .profile-header-img {
     padding: 54px;
 }
-
-
-
+.page-header-img > img.img-circle {
+  width: 200px;
+    height: 200px;
+    border: 2px solid #51D2B7;
+}
 .profile-header-img > img.img-circle {
     width: 120px;
     height: 120px;
@@ -295,11 +319,18 @@ body {
     text-align: center;
 }
 
+.label.label-default.page-label {
+    background-color: rgb(81, 210, 183);
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+    font-size: 20px;
+  }
+
 .label.label-default.rank-label {
     background-color: rgb(81, 210, 183);
     padding: 5px 10px 5px 10px;
     border-radius: 27px;
-}
+  }
 /*Fin Ranking*/
 
 /*Footer*/
@@ -418,37 +449,33 @@ body {
     .navbar .navbar-collapse .navbar-right > li:last-child { 
       padding-left: 15px; 
       padding-right: 15px; 
-    }
+    } 
     .navbar .nav-collapse { 
-      margin: 7.5px auto; 
-      padding: 0; 
+      margin: 7.5px auto; padding: 0; 
     }
-    .navbar .nav-collapse .navbar-form { 
-      margin: 0; 
-    }
-
-    .nav-collapse>li { 
-      float: none; 
-    }
-    
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
     .navbar.navbar-default .nav-collapse,
-    .navbar.navbar-inverse .nav-collapse {
+    .navbar.navbar-inverse .nav-collapse { 
       transform: translate(-100%,0px);
     }
-
     .navbar.navbar-default .nav-collapse.in,
-    .navbar.navbar-inverse .nav-collapse.in {
+    .navbar.navbar-inverse .nav-collapse.in { 
       transform: translate(0px,0px);
     }
-    
     .navbar.navbar-default .nav-collapse.slide-down,
-    .navbar.navbar-inverse .nav-collapse.slide-down {
+    .navbar.navbar-inverse .nav-collapse.slide-down { 
       transform: translate(0px,-100%);
     }
-
     .navbar.navbar-default .nav-collapse.in.slide-down,
-    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+    .navbar.navbar-inverse .nav-collapse.in.slide-down { 
       transform: translate(0px,0px);
+    }
+    .search-query:focus+button {
+      z-index: 3;
+    }
+    .reto {
+      margin-top: 50px;
     }
     .texto{
       margin: 10px 30px;
@@ -462,6 +489,11 @@ body {
     }
     .profile-header-img {
       padding: 20px 0;
+    }
+    .foto {
+      background-image: url(../img/maraton4-2-responsive.png);
+      background-size: 100%;
+      height: 250px;
     }
     .ranking h2{
       font-size: 29px;
