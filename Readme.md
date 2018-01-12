@@ -7,7 +7,7 @@
 Supermaratonero (s.)
 
 Es aquél que termina de ver una temporada completa
-Dentro de las primeras 24 horas de su liberación. Se apresura a terminar una temporada completa solo para presumir
+Dentro de las primeras 24 horas de su liberación. Se apresura a terminar una temporada completa solo para presumir.
 
 #### ¿Por qué enfocarnos en los Supermaratoneros?
 
@@ -15,39 +15,35 @@ Actualmente 8.4 millones de personas en el mundo cumplen con este perfil, no exi
 
 #### Más sobre nosotros
 
-Ésta plataforma te permite crear tu propio perfil, en donde podrás registrar las series vistas, cuanto tiempo demoraste en verlas, desbloquear nuevos capitulos y ganar premios.
+Ésta plataforma te permite crear tu propio perfil, en donde podrás ver y registrar tus series, cuanto tiempo demoraste en verlas, desbloquear nuevos capitulos y ganar premios.
 
 Reta a tus amigos y alcanza el primer lugar del ranking. Presume tus logros en redes sociales y demuestra que eres el **¡#SuperMaratonero número #1!**
 
 
 
-## Proceso
+## Proceso:
+
++ El primer día con la base de hacer una página web relacionada con películas y/o series, comenzamos todas dando distintas ideas para aportar en la página, y mientras lo hacíamos nos dimos cuenta de qué tipo de pagina web es la que queríamos porque detectamos una necesidad en la persona que es fanática de las series de tv. por eso nos enfocamos aún mas en mayores ideas para captar a ese tipo de público y luego de eso realizamos el prototipo y elegimos a la persona que sería la "Master" en Github.
 
 ![img](https://image.ibb.co/hwgE7R/Perfil.jpg)
 
-### Notas Tecnicas Generales:
+![img](https://preview.ibb.co/nykT2R/Pag_principal.jpg)
 
-+ La tipografīa utilizada es Roboto Condensed
++ Posteriormente lo que hicimos fué perfeccionar el prototipo en el computador para que todas nos basaramos en esa estructura, por ello es que también realizamos varias pantallas distintas como la pantalla de inicio, la pantalla de perfil y la pantalla explicando de qué se trata $Supermaratoneros, por eso es que para dividirnos el trabajo cada una se basó en realizar una pantalla tanto en maquetado como en funcionalidad.  
 
-+ Archivos base usados son: - index.html, enlazado con style.css (estilos) y app.js (interacción).
-							- profile.html, enlazado con profile.css (estilos) y app.js (interacción).
-							- tips.html, enlazado con tips.css (estilos) y app.js (interacción).
+![img](https://image.ibb.co/bZvvhR/Prototypo_inicio.png)
 
-+ Todas las imagenes se encuentran en la carpeta img dentro de assets
+![img](https://image.ibb.co/mXQgp6/Prototypo_Perfil.png)
 
-+ Prototipo de #supermaratoneros (está en la carpeta img dentro de assets)
+![img](https://image.ibb.co/hjbRNR/Prototypo_Que_es_supermaratonero.png)
 
-### Notas Planificación Generales:
++ Durante el proceso nos comunicamos constantemente por Whatsapp y por Slack por lo qu nos ayudó muchísimo para ayudarnos entre nosotras o al momento de editar algunos detalles o para informarnos de los cambios que subiríamos por slack y no generar errores, etc. Todas al tener voluntad fluímos muy bien y pudimos avanzar tanto por separado como en Laboratoria.
 
-+ PRIMER DÍA
-+ Todas juntas comenzamos dando ideas y al unirlas, nos permiitió detectar el enfoque que queremos finalmente por lo que desde ahí desarrollamos y unimos las ideas en base a este sitio web y empezamos a darle forma con un dibujo de prototipo (está en la carpeta img dentro de assets), luego decidimos quien sería la persona que tendría en su cuenta de github el trabajo y el resto así ser colaboradora clonando el trabajo, por último creamos un grupo en slack y otro grupo por whatsapp para mantener un feedback constante.
++ Cuando pudimos terminar el maquetado en tamaño desktop junto con varias funcionalidades, comenzamos a editarlo para que fuese responsivo y que en tamaño mobile el diseño fuese fiel a la idea de nuestra página web.
 
-+ SEGUNDO DÍA:
-+ El día anterior luego de realizar los prototipos nos repartimos el trabajo dandole a cada integrante una pantalla a desarrollar tanto en funcionalidad como en maquetado, teniendo en cuenta que todo el sitio web fuese responsivo, mientras nos contactamos por Slack y Whatsapp, donde posteriormente fuimos uniendo cada parte del sitio web gracias a github y así de esa forma pudimos presentar un producto mínimo viable en la primera presentación.
-+ Posteriormente seguimos arreglando la página tanto en el maquetado como en la funcionalidad tomando en cuenta lo que nos aconsejaron en la primera presentación.
++ Para finalizar nos propusimos mas retos y editamos en el camino la página en varias funcionalidades además de maquetado.
 
-+TERCER DÍA:
-+Seguimos afinando detalles y preparandonos para la segunda y última presentación.
++ Durante el proceso a 5 personas se pidió revisar la página tanto en versión desktop como mobile y en un principio no entendían la idea o el fin de la página, por ello es que en base a eso realizamos algunos cambios y posteriormente volvimos a hacer la misma actividad con las mismas personas, por lo que al entenderlo supieron interactuar con ella.
 
 
 ### Considerar en index.html: 
@@ -73,7 +69,7 @@ Reta a tus amigos y alcanza el primer lugar del ranking. Presume tus logros en r
 
 + Luego en la tercera seccion están las series mas vista el propio usuario dentro de un carrusel.
 	
-+ Posteriormente en la cuarta sección está dividida en 2 partes, una de ellas es "Actividades Recientes" de tus amigos donde salen registradas el último capitulo visto de la serie. La otra parte es el "Reto en proceso" donde el usuario elige los retos que quiere completar y muestra sus avances.
++ Posteriormente en la cuarta sección está dividida en 2 partes, una de ellas es "Actividades Recientes" de tus amigos donde salen registradas el avance que llevas de la serie. La otra parte es el "Reto en proceso" donde el usuario elige los retos que quiere completar y muestra sus avances.
 
 + En la última sección se agregó un footer con las redes sociales a las que se puede ingresar, también desde footer se puede contactar con el equipo soporte de la web, además de saber sobre nosotros como sitio web de #Supermaratoneros y por último nos permite interactucar con las otras secciones a traves de links.
 
@@ -86,6 +82,11 @@ Reta a tus amigos y alcanza el primer lugar del ranking. Presume tus logros en r
 
 + En la última sección se agregó un footer con las redes sociales a las que se puede ingresar, también desde footer se puede contactar con el equipo soporte de la web, además de saber sobre nosotros como sitio web de #Supermaratoneros y por último nos permite interactucar con las otras secciones a traves de links.
 
+### Conclusión Trabajo en equipo:
+
++ Pudimos trabajar muy bien en equipo ya que nuestra comunicación fué fluída teniendo buen feedback sin mayores inconvenientes al igual que al momento de usar github ya que nos avisabamos al realizar cada commit, además sentimos que el trabajo fué equitativo ya que cada una aportó la misma cantidad de trabajo.
+
++ Nos sentimos tranquilas y conformes con el proyecto realizado porque nos esforzamos en avanzar lo mas posible en el proyecto. 
 
  ### Equipo
 
