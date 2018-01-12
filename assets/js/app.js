@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#myCarousel').carousel({
         interval: 4000
     });
-    $('.btn-sign').click(function() {
+    $('.btn-sign,.modal-signup,.modal-signin').click(function() {
         /*if($('#Email').val() === ""){
         	alert("Ingesa tu Email");
         }if($('#Password').val() === ""){

@@ -228,6 +228,15 @@ body {
   border-radius: 50px;
   color: #101010;
 }
+
+.modal-signin a, .modal-signup a {
+  color: #101010;
+}
+
+.modal-signin:hover, .modal-signup:hover {
+  color: #99D3B4;
+}
+
 .comienza:hover {
   background-color: #101010;
   color: #99D3B4;
