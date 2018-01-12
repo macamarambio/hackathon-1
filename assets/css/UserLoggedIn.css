@@ -59,6 +59,11 @@ body {
   border-radius: 20px;
 }
 
+#remove {
+  margin-left: 11em;
+  margin-top: -1em;
+}
+
 /* carrusel 1 */
 
 .carousel-inner.onebyone-carosel {
