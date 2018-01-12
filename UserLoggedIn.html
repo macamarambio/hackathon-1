@@ -10,11 +10,10 @@
   <link rel="stylesheet" href="assets/css/UserLoggedIn.css">
 </head>
 <body>
-  <!-- Barra de navegación   -->
+  <!-- Barra de navegación -->
   <header>
     <nav class="navbar navbar-inverse">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
             <span class="sr-only">Toggle navigation</span>
@@ -22,24 +21,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="UserLoggedIn.html"><img class="img-responsive" style="width: 90%" src="assets/img/logo2.png" alt=""></a>
+          <a class="navbar-brand" href="UserLoggedIn.html"><img class="img-responsive" style="width: 90%; margin-top: -13px" src="assets/img/logo2.png" alt=""></a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-2">
           <ul class="nav navbar-nav navbar-right">
             <li>
               <div class="span12">
-                <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                <form id="custom-search-form" class="form-search form-horizontal">
                   <div class="input-append span12">
-                    <input type="text" class="search-query mac-style" placeholder="Search">
+                    <input id="search" type="text" class="search-query mac-style" placeholder="Search">
                     <button type="submit" class="btn"><i class="glyphicon glyphicon-search"></i></button>
                   </div>
                 </form>
               </div>
             </li>
             <li><a href="UserLoggedIn.html">Inicio</a></li>
-            <li><a class="tips" href="tips.html">TIPS del #SuperMaratonero</a></li>
+            <li><a class="tips" href="super.html">¿Qué es un #SuperMaratonero?</a></li>
             <li>
               <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
             </li>
@@ -59,6 +57,14 @@
       <!-- /.container -->
     </nav>
   </header>
+  <!-- Sección de las respuestas de la busqueda -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 col-md-offset-4">
+      <div class="series text-center"></div>
+    </div>
+  </div>
+</div>
   <!-- Sección de novedades -->
   <div class="container">
     <div class="row">
@@ -130,7 +136,7 @@
     <div class="row">
       <div id="myCarousel2" class="carousel fdi-Carousel slide">
         <!-- Carousel items -->
-        <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+        <div class="carousel fdi-Carousel slide" id="eventCarousel2" data-interval="0">
           <div class="carousel-inner onebyone-carosel">
             <div class="item">
               <div class="col-md-3 col-xs-3">
@@ -169,10 +175,10 @@
               </div>
             </div>
           </div>
-          <a class="left carousel-control" href="#eventCarousel" data-slide="prev">
+          <a class="left carousel-control" href="#eventCarousel2" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #fff;"></span>
           </a>
-          <a class="right carousel-control" href="#eventCarousel" data-slide="next">
+          <a class="right carousel-control" href="#eventCarousel2" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: #fff;"></span>
           </a>
         </div>
@@ -312,6 +318,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="assets/js/UserLoggedIn.js"></script>
+  <script src="assets/js/search.js"></script>
 </body>
 
 </html>
