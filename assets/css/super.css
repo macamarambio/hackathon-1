@@ -4,10 +4,55 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* buscador */
+
+#custom-search-form {
+  margin: 0;
+  margin-top: 13px;
+  padding: 0;
+  margin-left: 13px;
+}
+
+#custom-search-form .search-query {
+  padding-right: 3px;
+  padding-left: 3px;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  border-radius: 50px;
+  border: 1px solid #99D3B4;
+  background-color: #101010;
+}
+
+#custom-search-form button {
+  border: 0;
+  background: none;
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.search-query:focus+button {
+  z-index: 3;
+}
+
+.search-query:focus {
+  width: 260px;
+}
+
+.imgSeries {
+  border: 5px solid;
+  border-radius: 20px;
+}
+
 /*Sección Perfil */
 
-.navbar-brand { 
-  position: relative; 
+.navbar-brand {
+  position: relative;
   z-index: 2;
   color: #101010;
   padding: 0;
