@@ -29,9 +29,9 @@
           <ul class="nav navbar-nav navbar-right drop" style="padding-right: 50px;">
             <li class="li-search">
               <div class="span12">
-                <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                <form id="custom-search-form" class="form-search form-horizontal">
                   <div class="input-append span12">
-                    <input type="text" class="search-query mac-style" placeholder="Buscar">
+                    <input id="search" type="text" class="search-query mac-style" placeholder="Busca tu Serie">
                     <button type="submit" class="btn lupa"><i class="glyphicon glyphicon-search"></i></button>
                   </div>
                 </form>
@@ -39,7 +39,7 @@
             </li>
             <li class="hidden-xs"><a class="tips" href="#">Descúbrenos</a></li>
             <li class="hidden-xs">
-              <a class="btn btn-default btn-outline btn-circle collapsed btn-ingresa" data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2">Ingresa</a>
+              <a class="btn btn-default btn-outline btn-circle collapsed btn-ingresa" data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2">Inicia sesión</a>
             </li>
             <li class="hidden-lg"><a href="#series">Series más maratoneadas</a></li>
             <li class="hidden-lg"><a href="#foto">¿Que es un #SuperMaratonero?</a></li>
@@ -77,16 +77,27 @@
         </div>
         <div class="row">
           <div class="col-xs-6 col-lg-6">
-            <a href="#!" class="btn btn-default comienza">Ingresa</a>
+            <a href="#" class="btn btn-default comienza" data-toggle="modal" data-target="#btn-signin">Inicia sesión</a>
           </div>
           <div class="col-xs-6 col md-6">
-            <a href="#!" class="btn btn-default comienza">Registrate</a>
+            <a href="#" class="btn btn-default comienza" data-toggle="modal" data-target="#btn-signup"">Registrate</a>
           </div>
          </div>
       </div>
 		</div>
 	</div>
 </section><!-- /.Fin sección reto -->
+  <!-- Sección de las respuestas de la busqueda -->
+  <section class="resultado">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-md-offset-4">
+          <div class="busqueda text-center"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 <!-- sección series -->
 <section class="series" id="series">
   <div class="container-fluid">
@@ -389,6 +400,72 @@
       <p>© 2018 Copyright Text </p>
     </div>
   </footer><!-- ./Sección Footer -->
+  <!-- Modales -->
+  <!-- Modal sign-in -->
+  <div class="modal fade" id="btn-signin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #99D3B4;"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Inicia sesión</h4>
+        </div>
+        <div class="modal-body">
+         <div class="account-wall">
+                <img class="profile-img" src="assets/img/Profile/Alexandra Neira.jpg"
+                    alt="">
+                <p class="profile-name">Alexandra Neira</p>
+                <span class="profile-email">Alexandra@laboratoria.la</span>
+                <form class="form-signin">
+                <input type="password" class="form-control" placeholder="Contraseña" required autofocus>
+                <button class="btn btn-lg btn-primary btn-block comienza" type="submit">
+                    Inicia sesión</button>
+                <a href="#" class="need-help text-center">Iniciar sesión con otra cuenta </a><span class="clearfix"></span>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal sign-up -->
+  <div class="modal fade" id="btn-signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #99D3B4;"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Registrate</h4>
+        </div>
+        <div class="modal-body">
+          <div class="login-box">
+            <form role="form">
+              <div class="col-lg-12">
+                <label>Email</label>
+                <div class="form-group">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <label>Contraseña</label>
+                <div class="form-group">
+                  <input type="password" name="password" id="password" class="form-control" placeholder="">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <label>Confirma Contraseña</label>
+                <div class="form-group">
+                  <input type="password" name="password2" id="password2" class="form-control" placeholder="">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <button type="submit" class="btn btn-default comienza">
+                  <span>Registrate</span>
+                </button>
+              </div>
+            </form>
+          </div>  <!-- login-box -->
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
