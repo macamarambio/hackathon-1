@@ -13,7 +13,7 @@ $(document).ready(function() {
         window.location.href = "UserLoggedIn.html";
     });
     $('.tips, .que-es').click(function() {
-        window.location.href = "super.html";
+        window.location.href = "super2.html";
     });
     $('#myModal').on('shown.bs.modal', function() {
         $('#myInput').focus()
