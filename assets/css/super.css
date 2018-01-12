@@ -131,7 +131,7 @@ body{
 }
 
 #myFooter .btn {
-  background-color: #7EAF97;
+    background-color: #7EAF97;
     border-radius: 20px;
     border: none;
     width: 150px;
@@ -139,6 +139,9 @@ body{
     margin: 0 auto;
     margin-top: 10px;
     line-height: 25px;
+}
+#myFooter .btn:hover{
+  background-color: #7EAF97;
 }
 
 @media (max-width:767px) {
