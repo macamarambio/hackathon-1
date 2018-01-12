@@ -24,7 +24,7 @@ Desbloquea nuevos capitulos, acumula puntos y gana premios, reta a tus amigos y 
 
 ## Proceso
 
-![img](https://ibb.co/jV0Vgm)
+![img](https://image.ibb.co/hwgE7R/Perfil.jpg)
 
 ### Notas Tecnicas Generales:
 
