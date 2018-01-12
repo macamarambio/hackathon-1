@@ -95,6 +95,6 @@ Desbloquea nuevos capitulos, acumula puntos y gana premios, reta a tus amigos y 
  + Nadia Morales
  + Andrea Pérez
 
-
+[visita nuestra página](https://macamarambio.github.io/hackathon-1/)
 
 #### #Supermaratoneros versión `0.0.1`
