@@ -5,9 +5,7 @@ body{
 }
 
 /*Sección Perfil */
-.navbar-brand{
-  margin-top: -0.7em;
-}
+
 .navbar-inverse .navbar-nav > li > a {
   color: #99D3B4;
 }
@@ -726,10 +724,9 @@ body{
 
 /*.Modal popcorn*/
 
+
 /* buscador */
-.cont-search{
-  margin-bottom: 5%;
-}
+
 #custom-search-form {
   margin: 0;
   margin-top: 13px;
@@ -773,8 +770,4 @@ body{
   border-radius: 20px;
 }
 
-#remove {
-  margin-left: 11em;
-  margin-top: -1em;
-}
 /* .buscador */
