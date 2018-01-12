@@ -1,15 +1,23 @@
-# Challenge Hackathon
+# #Supermaratoneros
 
-# MVP #Supermaratoneros
+"Compite por ser el mejor #Supermaratonero"
+
+### ¿Qué es un Supermaratonero?
+
+#### Supermaratonero (s.)
+
+Es aquél que termina de ver una temporada completa
+Dentro de las primeras 24 horas de su liberación. Se apresuran a terminar una temporada completa solo para presumir
+
+¿Por qué enfocarnos en los Supermaratoneros?
+
+Actualmente 8.4 millones de personas en el mundo cumplen con este perfil....
+
+#Supermaratonero te permite crear tu propio perfil, en donde podrás registrar las series vistas, cuanto tiempo demoraste en verlas
 
 
-## Requerimiento :
 
-+ Realizar una página web para el consumo de series con soluciones utilizando el API de Open Movie Database (OMDB) o the movie database.
-
-### Descripción del producto:
-
-+ $Supermaratonistas en unas página web pensado para un público joven y adulto joven que gusta de darse el tiempo en ver series por largas horas, por lo que al tener un perfil en nuestro sitio web permite resgistrar las series vistas, la cantidad de series y el tiempo que demoró en verla(s), además de ello se puede interactuar con amigos y otras personas para poder competir en retos y desafiandolos para distintas maratones, donde el que gana el desafío obtendrá acumulación de puntos ya que cada usuario será parte de un ranking y a los que estén dentro de los primeros ganarán premios para poder ver series o películas recién estrenadas además de poder presumir de sus logros en otras redes sociales al tener la posibilidad de compartirlas.
+resgistrar las series vistas, la cantidad de series y el tiempo que demoró en verla(s), además de ello se puede interactuar con amigos y otras personas para poder competir en retos y desafiandolos para distintas maratones, donde el que gana el desafío obtendrá acumulación de puntos ya que cada usuario será parte de un ranking y a los que estén dentro de los primeros ganarán premios para poder ver series o películas recién estrenadas además de poder presumir de sus logros en otras redes sociales al tener la posibilidad de compartirlas.
 
 
 ### Notas Tecnicas Generales:
