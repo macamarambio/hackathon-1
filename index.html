@@ -11,7 +11,7 @@
 </head>
 <body>
   <!-- NavBar -->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -26,7 +26,7 @@
     
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-2">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right drop" style="padding-right: 50px;">
             <li class="li-search">
               <div class="span12">
                 <form id="custom-search-form" class="form-search form-horizontal pull-right">
@@ -37,13 +37,13 @@
                 </form>
               </div>
             </li>
-            <li class="hidden-xs"><a class="tips" href="#">¿Qué es un #SuperMaratonero?</a></li>
+            <li class="hidden-xs"><a class="tips" href="#">Descúbrenos</a></li>
             <li class="hidden-xs">
               <a class="btn btn-default btn-outline btn-circle collapsed btn-ingresa" data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2">Ingresa</a>
             </li>
-            <li><a href="."></a> </li>
-            <li></li>
-            <li></li>
+            <li class="hidden-lg"><a href="#series">Series más maratoneadas</a></li>
+            <li class="hidden-lg"><a href="#foto">¿Que es un #SuperMaratonero?</a></li>
+            <li class="hidden-lg"><a href="#ranking">Ranking #SuperMaratonero</a></li>
           </ul>
           <div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse2">
             <form class="navbar-form navbar-right form-inline" role="form">
@@ -65,14 +65,14 @@
 <section class="reto">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-10 col-lg-4 col-lg-pull-2 texto">
+			<div class="col-xs-10 col-lg-4 texto">
         <h1 class="hacheuno">Conviertete en un #SuperMaratonero</h1>
         <h3 class="hachetres">Ve tus series favoritas y se premiado por ello!</h3>
         <p class="hidden-xs">Completa los retos y desbloquea capitulos, premios, trailers y más!.
         Compite con tus amigos y conviertete en el #SuperMaratonero numero uno del ranking!</p>
         <div class="row">
         	<div class="col-xs-12 hidden-lg">
-        		<a href="#!" class="btn btn-default comienza que-es">¿Que es un #SuperMaratonero?</a>
+        		<a href="#!" class="btn btn-default comienza que-es">Descúbrenos</a>
         	</div>
         </div>
         <div class="row">
@@ -88,7 +88,7 @@
 	</div>
 </section><!-- /.Fin sección reto -->
 <!-- sección series -->
-<section class="series">
+<section class="series" id="series">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
@@ -150,8 +150,58 @@
     </div>
   </div>
 </section><!-- ./series -->
+<!-- Sección foto -->
+<section class="foto" id="foto">
+</section><!-- /.Fin sección foto -->
+<!-- Sección explicación -->
+<section class="explicacion">
+  <div class="row">
+    <div class="col-lg-4 profile-header-container">
+      <div class="page-header-img">
+        <img class="img-circle" src="assets/img/registrarse.jpg" alt="">
+        <!-- badge -->
+        <div class="rank-label-container">
+          <span class="label label-default page-label">REGISTRATE</span>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 pull-right">
+            <h4>¡Es gratis! Suma puntos viendo tu series favoritas</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 profile-header-container">
+      <div class="page-header-img">
+        <img class="img-circle" src="assets/img/retos.jpg" alt="">
+        <!-- badge -->
+        <div class="rank-label-container">
+          <span class="label label-default page-label">COMPLETA LOS RETOS</span>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 pull-right">
+            <h4>Desbloquea nuevos capitulos y gana premios, reta a tus amigos y alcanza el primer lugar del ranking</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 profile-header-container">
+      <div class="page-header-img">
+        <img class="img-circle" src="assets/img/redes-sociales.png" alt="">
+        <!-- badge -->
+        <div class="rank-label-container">
+          <span class="label label-default page-label">COMPARTE</span>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 pull-right">
+            <h4>¡Presume tus logros en redes sociales y demuestra que eres el #SuperMaratonero número #1!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /.Fin sección explicación -->
 <!-- Sección Ranking -->
-<section class="ranking">
+<section class="ranking" id="ranking">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">

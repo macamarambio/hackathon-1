@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>#SuperMaratoneros</title>
@@ -9,8 +10,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/UserLoggedIn.css">
 </head>
+
 <body>
-  <!-- Barra de navegación -->
+  <!-- Barra de navegación   -->
   <header>
     <nav class="navbar navbar-inverse">
       <div class="container">
@@ -32,15 +34,13 @@
                   <div class="input-append span12">
                     <input id="search" type="text" class="search-query mac-style" placeholder="Search">
                     <button type="submit" class="btn"><i class="glyphicon glyphicon-search"></i></button>
+                    <button type="submit" class="btn"><i class="glyphicon glyphicon-remove"></i></button>
                   </div>
                 </form>
               </div>
             </li>
             <li><a href="UserLoggedIn.html">Inicio</a></li>
-            <li><a class="tips" href="super.html">¿Qué es un #SuperMaratonero?</a></li>
-            <li>
-              <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
-            </li>
+            <li><a class="tips" href="super.html">Descúbrenos</a></li>
             <li>
               <a href="profile.html"><img class="profile-menu img-circle img-responsive" src="assets/img/Profile/Alexandra Neira.jpg" alt="Profile"></a>
             </li>
@@ -58,13 +58,13 @@
     </nav>
   </header>
   <!-- Sección de las respuestas de la busqueda -->
-<div class="container">
-  <div class="row">
-    <div class="col-md-5 col-md-offset-4">
-      <div class="series text-center"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-4">
+        <div class="series text-center"></div>
+      </div>
     </div>
   </div>
-</div>
   <!-- Sección de novedades -->
   <div class="container">
     <div class="row">
@@ -188,14 +188,14 @@
   </div>
   <!-- Sección Ranking -->
   <section class="ranking">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h2>Ranking #SuperMaratonero</h2>
+          <h2>Ranking mejor #SuperMaratonero</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3 profile-header-container">
+      <div class="row hidden-lg">
+        <div class="col-xs-6 profile-header-container">
           <div class="profile-header-img">
             <img class="img-circle" src="assets/img/Profile/Alexandra Neira.jpg" alt="">
             <!-- badge -->
@@ -203,7 +203,7 @@
               <span class="label label-default rank-label">#1</span>
             </div>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-xs-12 pull-right">
                 <h5>8225 puntos</h5>
                 <h4>NerdAle</h4>
                 <p>Rank: Manager en Los Pollos Hermanos</p>
@@ -211,7 +211,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 profile-header-container">
+        <div class="col-xs-6 profile-header-container">
           <div class="profile-header-img">
             <img class="img-circle" src="assets/img/Profile/Lalo.jpg" alt="">
             <!-- badge -->
@@ -219,7 +219,7 @@
               <span class="label label-default rank-label">#2</span>
             </div>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-xs-12">
                 <h5>8130 puntos</h5>
                 <h4>Lalo</h4>
                 <p>Rank: CEO en Pied Piper</p>
@@ -227,7 +227,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 profile-header-container">
+      </div>
+      <div class="row hidden-lg">
+        <div class="col-xs-6 profile-header-container">
           <div class="profile-header-img">
             <img class="img-circle" src="assets/img/Profile/Claire.jpg" alt="">
             <!-- badge -->
@@ -235,7 +237,7 @@
               <span class="label label-default rank-label">#3</span>
             </div>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-xs-12">
                 <h5>8020 puntos</h5>
                 <h4>ClairLedgard</h4>
                 <p>Rank: Agente en Quantico, Virginia</p>
@@ -243,7 +245,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 profile-header-container">
+        <div class="col-xs-6 profile-header-container">
           <div class="profile-header-img">
             <img class="img-circle" src="assets/img/Profile/Iván.jpg" alt="">
             <!-- badge -->
@@ -251,7 +253,73 @@
               <span class="label label-default rank-label">#4</span>
             </div>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-xs-12">
+                <h5>8002 puntos</h5>
+                <h4>IvánDevp</h4>
+                <p>Rank: Jefe ejecutivo en Hooli</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row hidden-xs">
+        <div class="col-lg-3 profile-header-container">
+          <div class="profile-header-img">
+            <img class="img-circle" src="assets/img/Profile/Alexandra Neira.jpg" alt="">
+            <!-- badge -->
+            <div class="rank-label-container">
+              <span class="label label-default rank-label">#1</span>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h5>8225 puntos</h5>
+                <h4>NerdAle</h4>
+                <p>Rank: Manager en Los Pollos Hermanos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 profile-header-container">
+          <div class="profile-header-img">
+            <img class="img-circle" src="assets/img/Profile/Lalo.jpg" alt="">
+            <!-- badge -->
+            <div class="rank-label-container">
+              <span class="label label-default rank-label">#2</span>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h5>8130 puntos</h5>
+                <h4>Lalo</h4>
+                <p>Rank: CEO en Pied Piper</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 profile-header-container">
+          <div class="profile-header-img">
+            <img class="img-circle" src="assets/img/Profile/Claire.jpg" alt="">
+            <!-- badge -->
+            <div class="rank-label-container">
+              <span class="label label-default rank-label">#3</span>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h5>8020 puntos</h5>
+                <h4>ClairLedgard</h4>
+                <p>Rank: Agente en Quantico, Virginia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 profile-header-container">
+          <div class="profile-header-img">
+            <img class="img-circle" src="assets/img/Profile/Iván.jpg" alt="">
+            <!-- badge -->
+            <div class="rank-label-container">
+              <span class="label label-default rank-label">#4</span>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
                 <h5>8002 puntos</h5>
                 <h4>IvánDevp</h4>
                 <p>Rank: Jefe ejecutivo en Hooli</p>
@@ -262,6 +330,7 @@
       </div>
     </div>
   </section>
+  <!-- ./Sección Ranking -->
   <!-- Sección del footer -->
   <footer id="myFooter">
     <div class="container">
@@ -318,7 +387,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="assets/js/UserLoggedIn.js"></script>
-  <script src="assets/js/search.js"></script>
 </body>
 
 </html>

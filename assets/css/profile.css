@@ -34,6 +34,16 @@ body{
 .description{
   margin-top: 3%;
 }
+
+.btn-follow{
+  background-color: #7EAF97;
+  color: #101010;
+}
+
+.btn-follow:hover{
+  color: #FFF;
+}
+
 .progress{
   width: 150px;
   height: 150px;
