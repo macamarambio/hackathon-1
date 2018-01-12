@@ -12,13 +12,12 @@ Dentro de las primeras 24 horas de su liberación. Se apresura a terminar una te
 #### ¿Por qué enfocarnos en los Supermaratoneros?
 
 Actualmente 8.4 millones de personas en el mundo cumplen con este perfil, no existe una plataforma en donde los supermaratoneros puedan registrar sus record, presumir e interactuar entre sí.
-ideas (redactar)
 
 #### Más sobre nosotros
 
 Ésta plataforma te permite crear tu propio perfil, en donde podrás registrar las series vistas, cuanto tiempo demoraste en verlas, desbloquear nuevos capitulos y ganar premios.
+
 Reta a tus amigos y alcanza el primer lugar del ranking. Presume tus logros en redes sociales y demuestra que eres el **¡#SuperMaratonero número #1!**
-Desbloquea nuevos capitulos, acumula puntos y gana premios, reta a tus amigos y alcanza el primer lugar del ranking
 
 
 

@@ -4,7 +4,7 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-/*Sección Perfil */
+/*Sección Navbar - Perfil */
 
 .navbar-inverse .navbar-nav > li > a {
   color: #99D3B4;
@@ -210,7 +210,7 @@ body{
     text-align: center;
   }
 }
-/* Fin Perfil */
+/* . Navbar - Perfil */
 
 /*Sección Logros*/
 .section-achievements{
@@ -358,7 +358,7 @@ body{
   }
 }
 
-/*Fin Logros*/
+/*.Logros*/
 
 /*Top Series*/
 .top-series {
@@ -409,7 +409,7 @@ body{
 .onebyone-carosel .prev {
   left: -33.33%;
 }
-/*Fin Top Series*/
+/*.Top Series*/
 
 /*Actividad Reciente*/
 .act-reciente{
@@ -687,9 +687,9 @@ body{
  flex: 0 0 auto;
  -webkit-flex: 0 0 auto;
 }
-/*Fin Footer*/
+/*.Footer*/
 
-/*Modal popcorn*/
+/*Modal*/
 .modal-content{
   background-color: #000;
   border: 1px solid #FFF;
@@ -725,8 +725,7 @@ body{
     margin-top: 50%;
   }
 }
-
-/*.Modal popcorn*/
+/*.Modal*/
 
 
 /* buscador */
