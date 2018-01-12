@@ -3,13 +3,6 @@ $(document).ready(function() {
         interval: 4000
     });
     $('.btn-sign,.modal-signup,.modal-signin').click(function() {
-        /*if($('#Email').val() === ""){
-        	alert("Ingesa tu Email");
-        }if($('#Password').val() === ""){
-        	alert("Ingresa tu contraseña");
-        }else{
-        	console.log("hola");
-        }*/
         window.location.href = "UserLoggedIn.html";
     });
     $('.tips, .que-es').click(function() {
@@ -17,7 +10,12 @@ $(document).ready(function() {
     });
     $('#myModal').on('shown.bs.modal', function() {
         $('#myInput').focus()
-    })
+    });
+    $('#custom-search-form').on('submit', (e) => {
+      let searchText = $('#search').val();
+      search(searchText);
+      e.preventDefault();
+    });
 });
 
 var randomMovieArray = ['Stranger Things', 'Game of Thrones', 'Narcos', 'Black mirror', 'sense8', 'Breaking Bad', 'Walking Dead', 'Silicon Valley', 'Mindhunter', 'Designated Survivor', 'Scream Queens', 'Dexter', 'Glee', 'Big Bang Theory', 'Modern Family', 'True Blood'];
@@ -150,3 +148,7 @@ function search(searchText) {
     };
   });
 };
+$('#search').click(function() {
+  $('.delete').remove();
+  $('.glyphicon-remove').remove();
+});
