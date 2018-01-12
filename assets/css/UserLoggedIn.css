@@ -103,11 +103,18 @@ body {
   padding: 54px;
 }
 
+.profile-header-img>a>img.img-circle {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #51D2B7;
+}
+
 .profile-header-img>img.img-circle {
   width: 120px;
   height: 120px;
   border: 2px solid #51D2B7;
 }
+
 
 .profile-header {
   margin-top: 43px;
