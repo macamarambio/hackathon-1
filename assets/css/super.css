@@ -6,11 +6,6 @@ body{
 
 /*Sección Perfil */
 
-/*
-.navbar-brand{
-  margin-top: -0.7em;
-}*/
-
 .navbar-brand { 
   position: relative; 
   z-index: 2;
@@ -147,7 +142,7 @@ body{
 }
 
 #myFooter .btn {
-    background-color: #7EAF97;
+  background-color: #7EAF97;
     border-radius: 20px;
     border: none;
     width: 150px;
@@ -156,19 +151,18 @@ body{
     margin-top: 10px;
     line-height: 25px;
 }
-#myFooter .btn:hover{
-  background-color: #7EAF97;
-}
 
 @media (max-width:767px) {
     .brand img{
         margin-bottom: 5px
         width: 100%;
     }
-    .navbar .btn-navbar{
-        /*margin-right: -15px;*/
-    }
+
     .navbar .nav > li > a {
         padding: 10px 15px;
     }
+
+    #myFooter {
+    text-align: center;
+  }
 }
