@@ -59,11 +59,6 @@ body {
   border-radius: 20px;
 }
 
-#remove {
-  margin-left: 11em;
-  margin-top: -1em;
-}
-
 /* carrusel 1 */
 
 .carousel-inner.onebyone-carosel {
@@ -254,7 +249,7 @@ body {
 /*versión mobile*/
 @media screen and (max-width: 767px){
     .navbar .navbar-collapse .navbar-right > li:last-child {
-      padding-left: 15px;
+      /* padding-left: 15px; */
       padding-right: 15px;
     }
     .navbar .nav-collapse {
