@@ -48,7 +48,7 @@ body {
 
 .navbar .navbar-collapse { 
   position: relative; 
-  overflow: hidden !important; 
+  overflow: hidden !important;
 }
 .navbar .navbar-collapse .navbar-right > li:last-child { 
   padding-left: 22px; 
@@ -80,6 +80,11 @@ body {
   box-shadow: none; 
 }
 
+.navbar-form {
+  z-index: 1;
+  padding-right: 50px;
+}
+
 .nav-collapse>li { 
   float: right; 
 }
@@ -89,8 +94,15 @@ body {
   border: 2px solid gray;
 }
 
+.btn-ingresa:hover { 
+  border: none;
+  background-color: #99D3B4;
+  color: #101010;
+  border: 2px solid #99D3B4;
+}
+
 .btn.btn-outline { 
-  background-color: transparent; 
+  background-color: #101010; 
 }
 
 .navbar-nav.navbar-right .btn:not(.collapsed) {
@@ -111,45 +123,62 @@ body {
     transform: translate(0px,0px);
 }
 
-@media screen and (max-width: 767px) {
-    .navbar .navbar-collapse .navbar-right > li:last-child { 
-      padding-left: 15px; 
-      padding-right: 15px; 
-    } 
-    
-    .navbar .nav-collapse { 
-      margin: 7.5px auto; 
-      padding: 0; 
-    }
+/* buscador */
 
-    .navbar .nav-collapse .navbar-form { 
-      margin: 0; 
-    }
-
-    .nav-collapse>li { 
-      float: none; 
-    }
-    
-    .navbar.navbar-default .nav-collapse,
-    .navbar.navbar-inverse .nav-collapse {
-        transform: translate(-100%,0px);
-    }
-
-    .navbar.navbar-default .nav-collapse.in,
-    .navbar.navbar-inverse .nav-collapse.in {
-        transform: translate(0px,0px);
-    }
-    
-    .navbar.navbar-default .nav-collapse.slide-down,
-    .navbar.navbar-inverse .nav-collapse.slide-down {
-        transform: translate(0px,-100%);
-    }
-
-    .navbar.navbar-default .nav-collapse.in.slide-down,
-    .navbar.navbar-inverse .nav-collapse.in.slide-down {
-        transform: translate(0px,0px);
-    }
+#custom-search-form {
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
 }
+
+#custom-search-form .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 50px;
+  border: 1px solid #99D3B4;
+  -webkit-transition: width 0.2s ease-in-out;
+  -moz-transition: width 0.2s ease-in-out;
+  -o-transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+  background-color: #101010;
+}
+
+#custom-search-form button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.search-query:focus+button {
+  z-index: 3;
+}
+
+.search-query:focus {
+  width: 260px;
+}
+
+.li-search {
+  margin-top: 8px;
+}
+.navbar-nav.navbar-right .lupa {
+  z-index: 0;
+}
+
 /*
 * Fin NavBar
 */
@@ -171,16 +200,19 @@ body {
 }
 
 .texto {
-  margin: 50px 20px;
-  padding: 10px;
+  margin: 100px 0px;
+  padding: 20px 10px;
   background-color: #101010;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
+.hacheuno, .hachetres {
+  margin: 5px;
+}
 
 .comienza {
   width: 90%;
-  margin: 5px 0;
+  margin: 10px;
   background-color: #99D3B4;
   border-radius: 50px;
   color: #101010;
@@ -358,7 +390,7 @@ body {
 }
 
 #myFooter .btn {
-  background-color: #7EAF97;
+    background-color: #7EAF97;
     border-radius: 20px;
     border: none;
     width: 150px;
@@ -368,42 +400,73 @@ body {
     line-height: 25px;
 }
 
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
-}
-
-
 .content{
-   flex: 1 0 auto;
-   -webkit-flex: 1 0 auto;
-   min-height: 200px;
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+  min-height: 200px;
 }
 
 #myFooter{
-   flex: 0 0 auto;
-   -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
 }
 
 /*Fin Footer*/
 
 /*versión mobile*/
 @media screen and (max-width: 767px){
-  .texto{
-    margin: 10px 30px;
+    .navbar .navbar-collapse .navbar-right > li:last-child { 
+      padding-left: 15px; 
+      padding-right: 15px; 
+    }
+    .navbar .nav-collapse { 
+      margin: 7.5px auto; 
+      padding: 0; 
+    }
+    .navbar .nav-collapse .navbar-form { 
+      margin: 0; 
+    }
+
+    .nav-collapse>li { 
+      float: none; 
+    }
+    
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+      transform: translate(-100%,0px);
+    }
+
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+      transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+      transform: translate(0px,-100%);
+    }
+
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+      transform: translate(0px,0px);
+    }
+    .texto{
+      margin: 10px 30px;
+      text-align: center;
+    }
+    .hacheuno {
+      font-size: 25px;
+    }
+    .hachetres {
+      font-size: 15px;
+    }
+    .profile-header-img {
+      padding: 20px 0;
+    }
+    .ranking h2{
+      font-size: 29px;
+    }
+    #myFooter {
     text-align: center;
-  }
-  .hacheuno {
-    font-size: 30px;
-  }
-  .hachetres {
-    font-size: 20px;
-  }
-  .profile-header-img {
-    padding: 20px 0;
-  }
-  .ranking h2{
-    font-size: 29px;
   }
 }
