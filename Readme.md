@@ -1,16 +1,30 @@
-# Challenge Hackathon
+# #Supermaratoneros
 
-# MVP #Supermaratoneros
+##### "Compite por ser el mejor #Supermaratonero"
+
+### ¿Qué es un Supermaratonero?
+
+Supermaratonero (s.)
+
+Es aquél que termina de ver una temporada completa
+Dentro de las primeras 24 horas de su liberación. Se apresura a terminar una temporada completa solo para presumir
+
+#### ¿Por qué enfocarnos en los Supermaratoneros?
+
+Actualmente 8.4 millones de personas en el mundo cumplen con este perfil, no existe una plataforma en donde los supermaratoneros puedan registrar sus record, presumir e interactuar entre sí.
+ideas (redactar)
+
+#### Más sobre nosotros
+
+Ésta plataforma te permite crear tu propio perfil, en donde podrás registrar las series vistas, cuanto tiempo demoraste en verlas, desbloquear nuevos capitulos y ganar premios.
+Reta a tus amigos y alcanza el primer lugar del ranking. Presume tus logros en redes sociales y demuestra que eres el **¡#SuperMaratonero número #1!**
+Desbloquea nuevos capitulos, acumula puntos y gana premios, reta a tus amigos y alcanza el primer lugar del ranking
 
 
-## Requerimiento :
 
-+ Realizar una página web para el consumo de series con soluciones utilizando el API de Open Movie Database (OMDB) o the movie database.
+## Proceso
 
-### Descripción del producto:
-
-+ $Supermaratonistas en unas página web pensado para un público joven y adulto joven que gusta de darse el tiempo en ver series por largas horas, por lo que al tener un perfil en nuestro sitio web permite resgistrar las series vistas, la cantidad de series y el tiempo que demoró en verla(s), además de ello se puede interactuar con amigos y otras personas para poder competir en retos y desafiandolos para distintas maratones, donde el que gana el desafío obtendrá acumulación de puntos ya que cada usuario será parte de un ranking y a los que estén dentro de los primeros ganarán premios para poder ver series o películas recién estrenadas además de poder presumir de sus logros en otras redes sociales al tener la posibilidad de compartirlas.
-
+![img](https://ibb.co/jV0Vgm)
 
 ### Notas Tecnicas Generales:
 
@@ -30,7 +44,7 @@
 + Todas juntas comenzamos dando ideas y al unirlas, nos permiitió detectar el enfoque que queremos finalmente por lo que desde ahí desarrollamos y unimos las ideas en base a este sitio web y empezamos a darle forma con un dibujo de prototipo (está en la carpeta img dentro de assets), luego decidimos quien sería la persona que tendría en su cuenta de github el trabajo y el resto así ser colaboradora clonando el trabajo, por último creamos un grupo en slack y otro grupo por whatsapp para mantener un feedback constante.
 
 + SEGUNDO DÍA:
-+ El día anterior luego de realizar los prototipos nos repartimos el trabajo dandole a cada integrante una pantalla a desarrollar tanto en funcionalidad como en maquetado, teniendo en cuenta que todo el sitio web fuese responsivo, mientras nos contactamos por Slack y Whatsapp, donde posteriormente fuimos uniendo cada parte del sitio web gracias a github y así de esa forma pudimos presentar un producto mínimo viable en la primera presentación. 
++ El día anterior luego de realizar los prototipos nos repartimos el trabajo dandole a cada integrante una pantalla a desarrollar tanto en funcionalidad como en maquetado, teniendo en cuenta que todo el sitio web fuese responsivo, mientras nos contactamos por Slack y Whatsapp, donde posteriormente fuimos uniendo cada parte del sitio web gracias a github y así de esa forma pudimos presentar un producto mínimo viable en la primera presentación.
 + Posteriormente seguimos arreglando la página tanto en el maquetado como en la funcionalidad tomando en cuenta lo que nos aconsejaron en la primera presentación.
 
 +TERCER DÍA:
@@ -65,7 +79,7 @@
 + En la última sección se agregó un footer con las redes sociales a las que se puede ingresar, también desde footer se puede contactar con el equipo soporte de la web, además de saber sobre nosotros como sitio web de #Supermaratoneros y por último nos permite interactucar con las otras secciones a traves de links.
 
 
-### Considerar en tips.html: 
+### Considerar en tips.html:
 
 + En la parte superior de cada html se encuentra el `nav` con el logo de #Supermaratoneros, después un botón "inicio" que está enlazada a la pantalla de index.html, luego un botón de "Tips del #Supermaratonero" que está enlazada a la pantalla de tips.html, a continuación está el aviso de las notificaciones junto con el perfil de la persona registrada y por último está el botón de "Cerrar Sesión" que al clickear nos envía a la pantalla de index.html.
 
@@ -74,13 +88,13 @@
 + En la última sección se agregó un footer con las redes sociales a las que se puede ingresar, también desde footer se puede contactar con el equipo soporte de la web, además de saber sobre nosotros como sitio web de #Supermaratoneros y por último nos permite interactucar con las otras secciones a traves de links.
 
 
- + Squad 3: #Supermaratoneros
+ ### Equipo
+
  + Paz Contreras
- + Macarena Marambio 
+ + Macarena Marambio
  + Nadia Morales
- + Andrea Pérez 
+ + Andrea Pérez
 
 
-Link: https://github.com/macamarambio/hackathon-1
 
-#### #Supermaratoneros Laboratoria
+#### #Supermaratoneros versión `0.0.1`
