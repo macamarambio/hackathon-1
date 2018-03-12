@@ -111,6 +111,7 @@ function apiCall() {
             $('.img15').attr('src', image);
         }
     });
+<<<<<<< Updated upstream
     $.getJSON('https://www.omdbapi.com/?apikey=bd7a01a9&s=' + encodeURI(randomMovieArray[8])).then(function(response) {
         var image = response.Search[0].Poster;
         if (image !== "N/A") {
