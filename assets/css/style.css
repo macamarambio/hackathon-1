@@ -601,6 +601,10 @@ body {
     font-size:18px;
 }
 
+.delete {
+  color: #99D3B4;
+}
+
 /*versión mobile*/
 @media screen and (max-width: 767px){
     .navbar .navbar-collapse .navbar-right > li:last-child { 
